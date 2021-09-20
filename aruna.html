@@ -1,0 +1,81 @@
+<html>
+    <head>
+         <title>login</title>
+         <style>
+                    body{
+                        background-color: #34495e;
+                        margin: 0%;
+                        padding: 0%;
+                        font-family: sans-serif;
+                        }
+             #form{
+                 background-color: #191919;
+                 width: 300px;
+                 padding: 40px;
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%,-50%);
+                 text-align: center;
+                }
+               h1{
+                   color: white;
+                   font-weight: 500;
+                   font-family: sans-serif;
+                   text-transform: uppercase;
+
+               }   
+            .login{
+                border: 20px solid #3498db;
+                border-radius: 23px;
+                fill: none;
+                text-align: center;
+                background-color: transparent;
+                display: block;
+                margin: 20px auto;
+                text-align: center;
+                padding: 14px 10px;
+                width: 200px;
+                outline: none;
+                transition: 0.25s;
+                color: white;
+                
+            }  
+            .login:hover{
+                width: 280px;
+                border-color: #2ecc71;
+            }          
+            .submit{
+                border: 2px solid #34981b;
+                border-radius: 23px;
+                border: black;
+                text-align: center;
+                background-color: transparent;
+                display: block;
+                margin: 20px auto;
+                text-align: center;
+                background-color: transparent;
+                display: block;
+                margin: 20px auto;
+                text-align: center;
+                padding: 14px 40px;
+                width: 180px;
+                outline: none;
+                color: white;
+                transition: 0.25s;
+                cursor: pointer;
+            }
+            .submit:hover{
+                background-color: #2ecc71;
+                text-align: center;
+
+            }
+         </style>
+    </head>
+    <form id="form" action="" method="POST">
+        <h1>login</h1>
+     <input type="text" placeholder="Enter user name" class="Login">
+     <input type="Password" placeholder="Enter password" class="Login">
+     <input type="Submit" value="Login" class="Submit">
+    </form>
+</html>
